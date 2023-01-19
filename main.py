@@ -19,7 +19,6 @@ orderALabWindow = Toplevel(makeAReferralWindow)
 patientProviderCommunicationWindow = Toplevel(orderALabWindow)
 
 
-
 # Colors
 hintOfRed = "#F9F7F7"
 botticelli = "#DBE2EF"
@@ -36,6 +35,9 @@ groupMemebers_B = ["Adia Chue", "Matthew Burrus", "Destan Hutcherson"]
 userLoggedIn = False
 invalidLogin = False
 accountExists = False
+
+
+
 
 # Functions
 ' ACROSS DIFFERENT WINDOWS '
@@ -208,6 +210,9 @@ def logoutUser():
         enterStartWindow()
 
 
+        
+        
+        
 if __name__ == '__main__':
 
 
@@ -280,6 +285,9 @@ if __name__ == '__main__':
     createWindowToolbar(patientProviderCommunicationWindow)
 
 
+    
+    
+    
 
     # EXIT PROTOCOLS
     for window in windows:
@@ -288,5 +296,11 @@ if __name__ == '__main__':
         else:
             window.protocol("WM_DELETE_WINDOW", enterStartWindow)
 
+            
     # Running the program
     startWindow.mainloop()
+
+    
+    
+    
+    
