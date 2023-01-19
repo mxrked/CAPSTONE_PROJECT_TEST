@@ -1,7 +1,7 @@
 
 '''
 
-    This is a test demonstration of the starting page of the capstone project
+    This is a test demonstration of the starting pages of the capstone project
 
 '''
 
